@@ -28,8 +28,7 @@ var userGuess = event.key;
         var emptyarray = [];
         //get 'sofar' results to go into empty array 
         emptyarray.push(userGuess);
-        
-        //print into array
+
 
     document.getElementById('sofar').innerText  = "Your guesses so far: "+ emptyarray;
     
